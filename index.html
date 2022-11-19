@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pomodoro Timer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="./index.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', (event) => {
+            new PomodoroTimerComponent();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="timer_display" id="timer_display">
+        <div class="timer_display_duration" id="timer_display_duration">00:00</div>
+        <div class="timer_display_name" id="timer_display_name">Work</div>
+    </div>
+    <div class="timer_button_container">
+        <button type="button" id="timer_button">Start</button>
+    </div>
+    <footer>
+        <!-- Created May 2020 -->
+    </footer>
+</body>
+
+</html>
