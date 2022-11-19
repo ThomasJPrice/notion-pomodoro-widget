@@ -12,6 +12,9 @@ body {
     color: #FFFFFF;
     display: grid;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a,
@@ -31,6 +34,8 @@ footer {
 .timer_display {
     /* margin-bottom: 2vh; */
     text-align: center;
+    margin-right: 5vw;
+
 }
 .timer_display .timer_display_duration {
     font-size: 15vmin;
@@ -41,8 +46,6 @@ footer {
 }
 
 .timer_button_container {
-    margin-top: -20vh;
-    margin-bottom: 2vh;
     text-align: center;
 }
 .timer_button_container button {
